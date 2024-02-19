@@ -1,8 +1,10 @@
 
-<center> <h1>MEANZ</h1><img title="MEANZ" alt="MEANZ" src="frontend/src/assets/MEANZ.jpeg"  width="300" height="300" ></center>
+<center><h1><a href="https://meanz.club">MEANZ</a></h1><img title="MEANZ" alt="MEANZ" src="frontend/src/assets/MEANZ.jpeg"  width="300" height="300" ></center>
 
 ---
-## MEANZ User Registration Site 
+## [MEANZ](https://meanz.club) User Registration Site 
+
+
 
 ### About
 
@@ -12,5 +14,5 @@ This repo contain all the necessary code to deploy the MEANZ User Registration S
 
 - [Front End](/frontend/README.md)
 - [Back End](/backend/README.md)
-- [Infrastructure]()
+- [Infrastructure](/infrastructure/README.md)
 

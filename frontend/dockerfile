@@ -1,13 +1,13 @@
-FROM node:18.13.0-alpine as build
+FROM --platform=linux/amd64 node:18.13.0-alpine as build
 
 WORKDIR /usr/src/app
 COPY . /usr/src/app
 RUN npm install
 RUN npm run prod
 
-FROM node:18.13.0-alpine
+FROM --platform=linux/amd64 node:18.13.0-alpine
 WORKDIR /usr/src/app
 COPY --from=build /usr/src/app/out/  /usr/src/app
 RUN npm install -g live-server@1.2.2
-CMD ["live-server"]
+ENTRYPOINT ["live-server", "--cors"]
 EXPOSE 80

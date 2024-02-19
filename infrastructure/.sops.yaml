@@ -1,0 +1,3 @@
+creation_rules:
+  - kms: "arn:aws:kms:us-east-1:905418460343:key/718da95a-9325-41cd-ab10-e40c5732d512"
+    aws_profile: meanz-iac

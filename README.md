@@ -11,6 +11,6 @@ This repo contain all the necessary code to deploy the MEANZ User Registration S
 ### Directory Structure 
 
 - [Front End](/frontend/README.md)
-- [Back End]()
+- [Back End](/backend/README.md)
 - [Infrastructure]()
 

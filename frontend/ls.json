@@ -1,5 +1,0 @@
-{
-  "port": 8008,
-  "server": {
-    "baseDir": "./out" }
-}

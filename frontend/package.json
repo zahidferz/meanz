@@ -5,12 +5,14 @@
     "ng": "ng",
     "start": "NODE_OPTIONS=--openssl-legacy-provider ng serve",
     "build": "NODE_OPTIONS=--openssl-legacy-provider ng build",
+    "prod": "NODE_OPTIONS=--openssl-legacy-provider ng build --prod --output-path out",
     "test": "NODE_OPTIONS=--openssl-legacy-provider ng test",
     "lint": "NODE_OPTIONS=--openssl-legacy-provider ng lint",
     "e2e": "NODE_OPTIONS=--openssl-legacy-provider ng e2e"
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "17.2.0",
     "@angular/animations": "^6.0.0",
     "@angular/common": "^6.0.0",
     "@angular/compiler": "^6.0.0",

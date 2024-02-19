@@ -33,3 +33,4 @@ This is the Infrastructure needed to create the MEANZ stack generated with:
 - The Load Balancer Created in front of the Frontend service its nice but i would rather implement an ALB with the ALB controller and an ingress behind such as nginx , Istio or some other
 - Acm could be used  with dns confirmation instead of CloudFLare tls encryption but will be more expensive
 - Ingress rules should be more refined (dault pah to open)
+- CD GitOps Such as ArgoCD , SpinnakerCD or FluxCD to have synced the state of the git repo with the actual infrastructure
